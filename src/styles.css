@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 400px;
+  width: 350px;
+  border-radius: 5px;
+  background-image: url("https://picsum.photos/seed/picsum/700/700/");
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0.9;
+  box-shadow: 1px 1px 2px 1px black;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 10px;
+  height: 50px;
+  width: 250px;
+  opacity: 1;
+}
+
+input {
+  height: 50px;
+  width: 250px;
+  opacity: 1;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  outline: none;
+  opacity: 1;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.city {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 200px;
+  height: 300px;
+  opacity: 1;
+}
+
+.location {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 1px black;
+  height: 50px;
+}
+
+#i {
+  margin-right: 15px;
+  position: relative;
+  /* animation: normal 3s infinite ease-in-out; */
+}
+
+.tempra {
+  margin-top: 10px;
+}
+/* 
+@keyframes normal {
+   0% {
+    left: 0px;
+  }
+  25% {
+    left: -20px;
+  }
+  50% {
+    left: 0px;
+  }
+  75% {
+    left: 20px;
+  }
+  100% {
+    left: 0px;
+  } 
+  
+} */
+
+.non {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
